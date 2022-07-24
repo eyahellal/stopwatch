@@ -1,0 +1,65 @@
+.timer{
+    margin-top:20%;
+    text-align: center;
+    font-size: 35px;
+    text-decoration:bold;
+    color: white;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    padding-top: 20px;
+
+}
+.buttons-style{
+   
+   color: white;
+    width: 100px;
+    height: 40px;
+    background-color:  rgb(3, 3, 33)
+
+
+}
+#start{
+    border: 1px solid rgb(97, 211, 97);
+}
+#stop{
+    border: 1px solid rgb(223, 76, 76);
+}
+#reset{
+    border: 1px solid white;
+}
+
+
+#start:hover{
+    width: 110px;
+    height: 50px;
+}
+#stop:hover{
+    width: 110px;
+    height: 50px;
+
+}
+#reset:hover{
+    width: 110px;
+    height: 50px;
+
+}
+body{
+    background-color: rgb(3, 3, 33);
+}
+.timer{
+    border: 1px solid white;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    left: 44%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
